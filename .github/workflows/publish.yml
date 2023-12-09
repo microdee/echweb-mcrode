@@ -4,7 +4,9 @@ on:
   push:
     branches:
       - master
-  workflow_call: {}
+  workflow_call:
+    secrets:
+      MCRODE_DEPLOY_TOKEN
 jobs:
   publish:
     permissions:
@@ -18,5 +20,4 @@ jobs:
       target-domain: mcro.de
       target-domain_var: mcro_de
     secrets:
-      PAGES_DEPLOY_TOKEN: "${{ secrets.PAGES_DEPLOY_TOKEN }}"
-# asd
+      PAGES_DEPLOY_TOKEN: "${{ secrets.MCRODE_DEPLOY_TOKEN }}"
