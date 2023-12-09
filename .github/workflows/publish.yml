@@ -12,7 +12,7 @@ jobs:
       pull-requests: write
     uses: microdee/echweb/.github/workflows/publish-site.yml@master
     with:
-      content-repo: ${{ github.repository }}
+      content-repo: microdee/echweb-mcrode
       target-repo: microdee/microdee.github.io
       target-domain: mcro.de
       target-domain_var: mcro_de
