@@ -6,6 +6,8 @@
 
 # Unreal plugins
 
+![_parallax(side) notInArticle](uelogo.svg)
+
 ## SpaceMouse for Unreal Engine
 
 Control Editor viewports with the best camera control device out there, even without the official drivers.
@@ -29,8 +31,6 @@ High level project automations for UE4 in C#, using the [Nuke build tool](https:
 ## Uranium
 
 ![_center](ware/ur_logo_atom_ondark.png)
-
-![_parallax(side) notInArticle](uelogo.svg)
 
 The fastest full CEF implementation for UE4 so far.
 
