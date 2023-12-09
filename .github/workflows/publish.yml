@@ -10,6 +10,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: read
     uses: microdee/echweb/.github/workflows/publish-site.yml@master
     with:
       content-repo: microdee/echweb-mcrode
@@ -18,3 +19,4 @@ jobs:
       target-domain_var: mcro_de
     secrets:
       PAGES_DEPLOY_TOKEN: "${{ secrets.PAGES_DEPLOY_TOKEN }}"
+# asd
