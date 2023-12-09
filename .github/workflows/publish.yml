@@ -6,7 +6,8 @@ on:
       - master
   workflow_call:
     secrets:
-      MCRODE_DEPLOY_TOKEN
+      MCRODE_DEPLOY_TOKEN:
+        required: true
 jobs:
   publish:
     permissions:
