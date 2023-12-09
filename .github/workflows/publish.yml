@@ -1,0 +1,18 @@
+name: Publish mcro.de
+run-name: ${{ github.actor }} Publishing mcro.de
+on:
+  push:
+    branches:
+      - master
+  workflow_call: {}
+jobs:
+  publish:
+    permissions:
+      contents: write
+      pull-requests: write
+    uses: microdee/echweb/.github/workflows/publish-site.yml@master
+    with:
+      content-repo: ${{ github.repository }}
+      target-repo: microdee/microdee.github.io
+      target-domain: mcro.de
+      target-domain_var: mcro_de
