@@ -16,3 +16,4 @@ jobs:
       target-repo: microdee/microdee.github.io
       target-domain: mcro.de
       target-domain_var: mcro_de
+      ghp-token: ${{ secrets.GHP_REPO_TOKEN }}
