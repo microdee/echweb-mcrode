@@ -19,10 +19,6 @@ export default class Logo extends React.Component {
         setTimeout(() => this.pleaseScroll.current?.classList.add("visible"), 5000)
     }
 
-    componentWillUnmount() {
-        this.state.parallax.unregister();
-    }
-
     render() {
         let divcontainerStyle = {
             height: "100%"
