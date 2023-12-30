@@ -24,7 +24,7 @@ export default class Logo extends React.Component {
             height: "100%"
         };
         return (
-            <div className="logo" style={{marginBottom: "-200px"}}>
+            <div className="logo" style={{marginBottom: "-150px"}}>
                 <div ref={this.pleaseScroll} className="pleaseScroll">
                     <div className="indicator">
                     </div>

@@ -1,6 +1,5 @@
 import React from 'react';
-import {Gh1, Gh2} from 'echweb-shared/Gh';
-import EwLink from 'echweb-shared/EwLink';
+import { A } from 'echweb-shared/hookrouter';
 
 export default class MainMenu extends React.Component {
     render() {
@@ -8,18 +7,18 @@ export default class MainMenu extends React.Component {
             <div className="cover">
             </div>
             <div className="flexing">
-                <Gh2 onlyhover glitchtype="1" className="menuItem">
-                    <EwLink to="/c/log">log</EwLink>
-                </Gh2>
-                <Gh2 onlyhover glitchtype="1" className="menuItem">
-                    <EwLink to="/c/works">works</EwLink>
-                </Gh2>
-                <Gh2 onlyhover glitchtype="1" className="menuItem">
-                    <EwLink to="/c/ware">software</EwLink>
-                </Gh2>
-                <Gh2 onlyhover glitchtype="1" className="menuItem">
-                    <EwLink to="/c/about">about</EwLink>
-                </Gh2>
+                <h2 className="menuItem">
+                    <A href="/c/log">log</A>
+                </h2>
+                <h2 className="menuItem">
+                    <A href="/c/works">works</A>
+                </h2>
+                <h2 className="menuItem">
+                    <A href="/c/ware">software</A>
+                </h2>
+                <h2 className="menuItem">
+                    <A href="/c/about">about</A>
+                </h2>
             </div>
         </div>
     }
