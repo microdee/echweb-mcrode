@@ -8,6 +8,10 @@
 
 ![_parallax(side)](me.jpg)
 
+* [Github](https://github.com/microdee)
+* _@mcro.de / m@mcro.de
+
+
 #### Most importantly:
 
 * Name is **Dávid Mórász**
@@ -28,11 +32,6 @@
 | **[Uberact Ltd.](https://uberact.com/)**<br>as Lead Developer | 2014 - 2018 |
 | **[Kitchen Budapest](http://kitchenbudapest.hu/)**<br>as Media Systems Designer | 2012 - 2014 |
 | **Freelance work**<br>as Media Artist | 2009 - 2012 |
-
-#### Contacts:
-
-* _@mcro.de / m@mcro.de
-* [Github](https://github.com/microdee)
 
 #### Tools/Languages
 
