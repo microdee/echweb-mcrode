@@ -11,7 +11,6 @@
 * [Github](https://github.com/microdee)
 * _@mcro.de / m@mcro.de
 
-
 #### Most importantly:
 
 * Name is **Dávid Mórász**
@@ -46,7 +45,6 @@ Industry applicable, in order of confidence. Also assume deep knowledge of relat
 * **.NET**
   * C#
   * C++/CLI
-  * XAML (WPF)
 * **Tooling/Scripting**
   * Python
   * Powershell
@@ -81,4 +79,4 @@ Still usable, in order of confidence
 #### Location:
 
 * Born in Hungary, Budapest
-* Currently living in Germany, Freiburg (soon to be Berlin)
+* Currently living in Germany, Freiburg
